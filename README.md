@@ -9,7 +9,7 @@ To use Folder Picker in your Capacitor project, follow these steps:
 1. Install the plugin using npm:
 
    ```bash
-   npm install @zagham-nadeem/capacitor-folder-picker
+   npm install capacitor-folder-picker
    ```
 
 2. For Android, ensure that you have the necessary permissions in your `AndroidManifest.xml`:
