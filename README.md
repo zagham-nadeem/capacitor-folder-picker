@@ -50,7 +50,7 @@ import { FolderPicker } from 'capacitor-folder-picker';
 
 async function pickFolder() {
     const result = await FolderPicker.chooseFolder();
-    console.log('Selected folder path:', result.path);
+    console.log('Selected folder path:', result.value);
 }
 ```
 
@@ -60,7 +60,7 @@ async function pickFolder() {
 
 Opens a system file picker dialog to select a folder.
 
-- **Returns:** Promise\<{ path: string }\> - A promise that resolves with the selected folder path.
+- **Returns:** Promise\<{ value: string }\> - A promise that resolves with the selected folder path.
 
 ## License
 
