@@ -60,7 +60,7 @@ async function pickFolder() {
 
 Opens a system file picker dialog to select a folder.
 
-- **Returns:** Promise\<{ value: string }\> - A promise that resolves with the selected folder path.
+- **Returns:** Promise\<{ path: string }\> - A promise that resolves with the selected folder path.
 
 ## License
 

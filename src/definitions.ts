@@ -1,3 +1,3 @@
 export interface FolderPickerPlugin {
-  chooseFolder(): Promise<{ value: string }>;
+  chooseFolder(): Promise<{ path: string }>;
 }
